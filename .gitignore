@@ -68,3 +68,7 @@ Thumbs.db
 # Development leftovers
 *_FAILED.py
 *.backup_before_*
+
+# Development leftovers
+*.backup_before_*
+*_FAILED.py
