@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+
+# Environments
+.env
+.env.*
+venv/
+.envrc
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Models / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+checkpoints/
+models/
+
+# Remote sensing / raster data
+*.tif
+*.tiff
+*.jp2
+*.vrt
+*.nc
+*.h5
+*.hdf5
+*.zarr
+*.npy
+*.npz
+
+# Large archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+# Local data dirs
+data/
+datasets/
+outputs/
+predictions/
+
+# Temp
+/tmp/
+*.tmp
+
+# Credentials / tokens
+*token*
+*secret*
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Development leftovers
+*_FAILED.py
+*.backup_before_*

@@ -1,0 +1,59 @@
+{
+  "protocol": {
+    "manifest": "/DATA/ralfonso/prithvi_wetlandburn/sardinia/patches_v1/manifests/surtr_sardinia_v1_FROZEN.csv",
+    "manifest_sha256": "5df424b2210b5db955275d795f13aeb81fd1b92eb9365baa39812612b7a9ec27",
+    "test_patches": 26,
+    "test_events": 4
+  },
+  "checkpoints": {
+    "baseline": {
+      "path": "/DATA/ralfonso/prithvi_wetlandburn/checkpoints/sardinia_surtr_v1/baseline/best.pt",
+      "epoch": 5,
+      "val_loss": 0.3015042079811711
+    },
+    "surtr": {
+      "path": "/DATA/ralfonso/prithvi_wetlandburn/checkpoints/sardinia_surtr_v1/surtr/best.pt",
+      "epoch": 19,
+      "val_loss": 0.27280279838208743
+    }
+  },
+  "pixel_pooled": {
+    "baseline": {
+      "iou": 0.8715020129731036,
+      "f1": 0.9313396479741441,
+      "precision": 0.9654462207754674,
+      "recall": 0.8995606326889279,
+      "accuracy": 0.9675076264130478
+    },
+    "surtr": {
+      "iou": 0.896011082768933,
+      "f1": 0.9451538452612054,
+      "precision": 0.9672763528029341,
+      "recall": 0.9240206360904814,
+      "accuracy": 0.9737288906511599
+    },
+    "delta_surtr_minus_baseline": {
+      "iou": 0.024509069795829452,
+      "f1": 0.013814197287061236,
+      "precision": 0.0018301320274667354,
+      "recall": 0.02446000340155341,
+      "accuracy": 0.00622126423811209
+    }
+  },
+  "event_macro": {
+    "baseline": {
+      "iou": 0.8425300571524508,
+      "f1": 0.9140297879136593,
+      "precision": 0.9265211854121039,
+      "recall": 0.905157156128022,
+      "accuracy": 0.9751486908375524
+    },
+    "surtr": {
+      "iou": 0.8548737624457876,
+      "f1": 0.9208623361929558,
+      "precision": 0.9277119684801165,
+      "recall": 0.9183743368368413,
+      "accuracy": 0.9791111895344266
+    }
+  }
+}

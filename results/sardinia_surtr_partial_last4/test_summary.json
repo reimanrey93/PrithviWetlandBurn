@@ -1,0 +1,34 @@
+{
+  "model": "siamese_partial_last4",
+  "protocol": {
+    "manifest": "/DATA/ralfonso/prithvi_wetlandburn/sardinia/patches_v1/manifests/surtr_sardinia_v1_FROZEN.csv",
+    "manifest_sha256": "5df424b2210b5db955275d795f13aeb81fd1b92eb9365baa39812612b7a9ec27",
+    "test_patches": 26,
+    "test_events": 4
+  },
+  "checkpoint": {
+    "path": "/DATA/ralfonso/prithvi_wetlandburn/checkpoints/sardinia_surtr_adaptation/partial_last4/best.pt",
+    "epoch": 9,
+    "val_loss": 0.25617885082488323,
+    "adaptation_info": {
+      "type": "partial",
+      "block_container": "blocks",
+      "total_blocks": 24,
+      "first_trainable": 20,
+      "last_trainable": 23
+    }
+  },
+  "confusion": {
+    "tp": 332769,
+    "fp": 10688,
+    "fn": 20011,
+    "tn": 1076593
+  },
+  "pixel_pooled": {
+    "iou": 0.9155386443923537,
+    "f1": 0.9559072557184578,
+    "precision": 0.9688811117548922,
+    "recall": 0.9432762628266909,
+    "accuracy": 0.9786821530476834
+  }
+}

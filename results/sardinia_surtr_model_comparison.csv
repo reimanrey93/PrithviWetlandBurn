@@ -1,0 +1,5 @@
+model,test_iou,f1,precision,recall
+POST-only,0.8715,0.9313,0.9654,0.8996
+Siamese frozen,0.8960,0.9452,0.9673,0.9240
+Siamese + LoRA,0.9010,0.9479,0.9676,0.9290
+Siamese + Partial FT,0.9155,0.9559,0.9689,0.9433
